@@ -1,0 +1,32 @@
+{
+  "name": "xstate-snake",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "prettier": "prettier \"src/**/*.{ts,tsx,js,json}\"",
+    "prettier:format": "yarn prettier --write",
+    "prettier:check": "yarn prettier --check",
+    "format": "yarn prettier:format"
+  },
+  "dependencies": {
+    "rxjs": "6.5.5",
+    "xstate": "4.9.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
